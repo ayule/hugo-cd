@@ -11,7 +11,7 @@ phases:
         commands:
             - cd /tmp
             - wget https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-            - mv hugo /usr/bin/hugo
+            - mv hugo /usr/bin/
             - cd -
             - rm -rf /tmp/*
     build:
